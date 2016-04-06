@@ -1,0 +1,53 @@
+body, html {
+	margin: 0;
+	padding: 0;
+}
+
+.wrapp {
+	width: 100%;
+	min-height: 700px;
+}
+
+.container {
+	width: 700px;
+	height: 700px;
+	margin: 0 auto;
+}
+
+.box {
+	width: 70px;
+	height: 70px;
+	float: left;
+	box-sizing: border-box;
+	border: 1px solid black;
+}
+
+.front {
+	width: 70px;
+	height: 70px;
+	position: absolute;
+	background: orange;
+	box-sizing: border-box;
+	border: 1px solid black;
+	backface-visibility: hidden;
+	transition: 1s linear;
+}
+
+.back {
+	width: 70px;
+	height: 70px;
+	position: absolute;
+	background: yellow;
+	box-sizing: border-box;
+	border: 1px solid black;
+	transform: perspective(900px) rotateY(-180deg);
+	transition: transform 1s linear;
+	text-align: center;
+	line-height: 70px;
+}
+
+.fa {
+	margin-top: 10px;
+	color: blue;
+	text-shadow: 1px 1px 1px black;
+}
