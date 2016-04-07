@@ -45,6 +45,7 @@ $('.box').click(function() {
 	// 		transform: 'perspective(900px) rotateY(0deg)'
 	// 	});
 	// }
+	//ako su isti ostavi ih otvorene a ako su razliciti pusti me da biram dalje.
 });
 
 });
